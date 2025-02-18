@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>飞机1.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="score">得分：<span id="score">0</span></div>
+        <button id="startButton">开始游戏</button>
+        <button id="restartButton">再来一局</button>
+    </div>
+    <div class="upgrade-buttons">
+        <button id="upgradeSpeedButton" class="upgradeButton">升级速度</button>
+        <button id="upgradeBulletSpeedButton" class="upgradeButton">升级子弹速度</button>
+        <button id="upgradeBulletCountButton" class="upgradeButton">升级弹道数量</button>
+    </div>
+    <div class="instructions">
+        <p>a short instruction：</p>
+        <ul>
+            <li>这是四天由自己熬夜查阅资料制作的练手烂作..</li>
+            <li>游戏规则很简单，发射子弹，躲避敌方飞机</li>
+            <li>游戏会随着时间越来越难</li>
+            <li>有可以改进的意见欢迎提出给我</li>
+            <li>my mailbox:1265000251@qq.com</li>
+            <li>键盘上才能操作 wasd控制方向 空格发射子弹。。</li>
+            <li>由于技术有限只能这样了。。</li>
+            <li>谢谢大家..</li>
+        </ul>
+        <p>*life is a fucking movie*</p>
+<p>*made by fakerman*</p>
+    </div>
+    <script src="game1.js"></script>
+</body>
+</html>
